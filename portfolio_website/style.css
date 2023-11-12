@@ -1,16 +1,17 @@
 body {
-    background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+    
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);;
 }
 
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+    background: grey;
 }
 
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/1.jpg');
+    background: url('images/bg1.jpg');
     background-size:cover;
     position:relative;
 }
@@ -27,7 +28,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(28, 12, 116);
+    color: white;
 }
 
 .text-center {
@@ -75,21 +76,23 @@ body {
 
 .card-body{
     
-    background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
     height: 280px;
     text-align: center;
+    
     
 }
 
 .card-title {
     text-align: center;
+    color: aliceblue;
 }
 .card:hover .servicesIcon {
     color: rgb(228, 220, 231);
 }
 .servicesText:hover {
     border: 1px solid rgb(244, 241, 248);
-    box-shadow: 5px 10px 5px 5px rgba(240, 239, 245, 0.596);
+    box-shadow: 2px 5px 2px 2px rgba(240, 239, 245, 0.596);
 }
 
 /* social media icons styling */
@@ -105,7 +108,9 @@ body {
 }
 /* footer styling */
 #footer {
-    background: radial-gradient(circle at 50% 70% , rgb(236, 158, 248) 10%, rgb(131, 83, 241) 80%);
+    background-color: #2b4162;
+background-image: radial-gradient(circle at 50% 70%, #2b4162 10%, #12100e 94%);
+    color: white;
     text-align: center;
     border:10px ;
     
@@ -117,7 +122,8 @@ body {
 }
 
 .boxes .box {
-    background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+    
+    background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
 	margin: 10px 20px;
 	max-width: calc(100% / 3 - 50px);
 	text-align: center;
@@ -125,7 +131,7 @@ body {
     border-color: #740af6;
     border-width: 1000px;
 	padding: 30px 10px;
-	box-shadow: 5px 10px 5px 5px rgba(240, 239, 245, 0.596);
+	box-shadow: 2px 5px 2px 2px rgba(240, 239, 245, 0.596);
 	cursor: default;
 }
 
@@ -136,16 +142,18 @@ body {
 
 .portfolioContent{
     border: 1px solid rgb(244, 241, 248);
-    box-shadow: 5px 10px 5px 5px rgba(240, 239, 245, 0.596);
+    box-shadow: 2px 5px 2px 2px rgba(240, 239, 245, 0.596);
 }
 
 .card-body1{
     
-    background: radial-gradient(circle at 10% 20%, rgb(236, 158, 248) 0%, rgb(131, 83, 241) 90.1%);
+    background:#2b4162;
     height: 380px;
     text-align: center;
     
 }
 
-
+.card-text{
+    color: white;
+}
 
